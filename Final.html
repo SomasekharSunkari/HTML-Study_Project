@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Development</title>
+    <!-- <link rel="shortcut ichttp://127.0.0.1:5500/Colloge/My_Designs/Final.htmlon" href="favicon.ico" type="image/x-icon"> -->
+    <link rel="icon" href="/Sai-phpto.jpeg" type="icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <style>
+        th,
+        table,
+        td {
+            border: 1px solid white;
+            /*border-collapse: collapse;*/
+        }
+
+        tr {
+            text-align: center;
+        }
+
+        tr:hover {
+            color: black;
+            font-size: 30px;
+            background-color: aqua;
+
+
+        }
+
+        footer {
+            background-color: black;
+            height: 30vh;
+            width: 90vw;
+            margin-left: 4%;
+            border-radius: 20px;
+
+        }
+
+        a:hover {
+            font-size: 20px;
+            color: royalblue;
+            text-decoration: none;
+
+        }
+
+        /* tr:nth-child(even)
+        {
+            background-color:black;
+            color:white;
+        }
+        tr:nth-child(odd)
+        {
+            background-color:white;
+        }*/
+    </style>
+</head>
+
+<body style="background-color:aquamarine;height:200vh">
+
+    <header style="background-color:black;width:90vw;height:30vh;margin-left:80px;border-radius:20px"
+        class="d-flex flex-row">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.9YFJm7V3_dYIBpZaq_36OgHaHQ&pid=Api" alt="THE CHEIFS IMAGE"
+            style="height:25vh;margin: 20px 40px;border-radius:20px">
+        <div class="d-flex flex-column">
+            <h1 style="color:white;text-align:center;padding-top:70px;padding-left:70px;font-size:100px">Welcome to
+                King's Hotel</h1>
+                <a href="#menu"> Menu</a>
+            <h6 style="text-align:right;color:white;font-size:20px"><i>We Will Serve What You Want .....</i></h6>
+        </div>
+        <!-- <img src="https://tse1.mm.bing.net/th?id=OIP.9YFJm7V3_dYIBpZaq_36OgHaHQ&pid=Api" alt="Chief Image" style="height:10vh;width:10vw;"> -->
+
+
+    </header>
+    <main style="background-color:orange;height:350vh;width:90vw;margin-left:80px;margin-top:20px;border-radius:20px">
+        <h1
+            STYLE="text-align:center;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size:100px;padding-top:20px">
+            <b style= "text-shadow:2px 2px 15px blue">We Will Serve . .</b>
+        </h1>
+        <section>
+            <div class="d-flex flex-row">
+                <div class="d-flex flex-column" style="width:25vw;height:75vh;border:2px ridge black;border-radius:20px;margin-top:80px;margin-left:80px;margin-right:50px">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.pA3QV9le3tWkxzb9gqli0gHaFj&pid=Api" alt="Biryani"
+                        style="height:40vh;border-radius:20px">
+                    <div class="d-flex flex-column"
+                        style="width:30vw;padding-left:20px;padding-top:10px;text-align:center">
+                        <h1
+                            style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:80px;padding-right:120px">
+                            <b>Biryani</b>
+                        </h1>
+                        <p style="font-size:25px;padding-right:100px">Biryani Makes your Hungery also Happy !</p>
+                        <h5
+                            style="color:white;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:40px;padding-right:120px">
+                            Order Now !</h5>
+                        <h3 style="padding-top:20px;font-weight:bold;padding-right:120px">King's Restaurant !</h3>
+                    </div>
+
+                </div>
+                <div class="d-flex flex-column"
+                    style="width:25vw;height:75vh;border:2px ridge black;border-radius:20px;margin-top:80px;margin-left:5x">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.QsvLYtrhbQo_M0awAFt4KgHaE7&pid=Api" alt="Fried Rice"
+                        style="height:40vh;border-radius:20px">
+                    <div class="d-flex flex-column"
+                        style="width:30vw;padding-left:20px;padding-top:10px;text-align:center">
+                        <h1
+                            style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:80px;padding-right:120px">
+                            <b>Fride Rice</b>
+                        </h1>
+                        <p style="font-size:25px;padding-right:100px">Fried Rice is a Best Choice !</p>
+                        <h5
+                            style="color:white;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:40px;padding-right:120px">
+                            Order Now !</h5>
+                        <h3 style="padding-top:20px;font-weight:bold;padding-right:120px">King's Restaurant !</h3>
+                    </div>
+
+                </div>
+
+                <div class="d-flex flex-column">
+                    style="width:25vw;height:75vh;border:2px ridge black;border-radius:20px;margin-top:80px;margin-left:50px">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.ulFg9RA5G3xjQlVKRW7UpAHaE8&pid=Api" alt="Chicken"
+                        style="height:40vh;border-radius:20px">
+                    <div class="d-flex flex-column"
+                        style="width:30vw;padding-left:20px;padding-top:10px;text-align:center">
+                        <h1
+                            style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:80px;padding-right:120px">
+                            <b>Tandoori</b>
+                        </h1>
+                        <p style="font-size:25px;padding-right:100px">Tandoori Makes it Yammy!</p>
+                        <h5
+                            style="color:white;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:40px;padding-right:120px">
+                            Order Now !</h5>
+                        <h3 style="padding-top:20px;font-weight:bold;padding-right:120px">King's Restaurant !</h3>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </section>
+        <section>
+            <div class="d-flex flex-row" style="outline : red 20px solid;outline-offset:30px rgb(192, 29, 29);">
+                <div class="d-flex flex-column"
+                    style="width:25vw;height:75vh;border:2px ridge black;border-radius:20px;margin-top:80px;margin-left:80px;margin-right:50px">
+                    <img src="https://tse2.mm.bing.net/th?id=OIP.VSbOG9B5R048G-5diwh6gAHaGI&pid=Api" alt="Ice Cremes"
+                        style="height:40vh;border-radius:20px">
+                    <div class="d-flex flex-column"
+                        style="width:30vw;padding-left:20px;padding-top:10px;text-align:center">
+                        <h1
+                            style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:80px;padding-right:110px">
+                            <b>Ice-Creame</b>
+                        </h1>
+                        <p style="font-size:25px;padding-right:100px">Ice Creame Make You Cool !</p>
+                        <h5
+                            style="color:white;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:40px;padding-right:120px">
+                            Order Now !</h5>
+                        <h3 style="padding-top:20px;font-weight:bold;padding-right:120px">King's Restaurant !</h3>
+                    </div>
+
+                </div>
+                <div class="d-flex flex-column"
+                    style="width:25vw;height:75vh;border:2px ridge black;border-radius:20px;margin-top:80px;margin-left:5x">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.NOXqPFeIUnDNDWeaGsagMwHaE6&pid=Api" alt="Chocolates"
+                        style="height:40vh;border-radius:20px">
+                    <div class="d-flex flex-column"
+                        style="width:30vw;padding-left:20px;padding-top:10px;text-align:center">
+                        <h1
+                            style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:80px;padding-right:120px">
+                            <b>Chocolates</b>
+                        </h1>
+                        <p style="font-size:25px;padding-right:100px">Chocolates May Bring's Love !</p>
+                        <h5
+                            style="color:white;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:40px;padding-right:120px">
+                            Order Now !</h5>
+                        <h3 style="padding-top:20px;font-weight:bold;padding-right:120px">King's Restaurant !</h3>
+                    </div>
+
+                </div>
+
+                <div class="d-flex flex-column"
+                    style="width:25vw;height:75vh;border:2px ridge black;border-radius:20px;margin-top:80px;margin-left:50px">
+                    <img src="https://tse1.mm.bing.net/th?id=OIP.3j1pUKXK7x16Ug9YD86bWQHaEo&pid=Api" alt="Chicken"
+                        style="height:40vh;border-radius:20px">
+                    <div class="d-flex flex-column"
+                        style="width:30vw;padding-left:20px;padding-top:10px;text-align:center">
+                        <h1
+                            style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:80px;padding-right:120px">
+                            <b>Cool Drinks</b>
+                        </h1>
+                        <p style="font-size:25px;padding-right:100px">Cool Drinks are Enough !</p>
+                        <h5
+                            style="color:white;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size:40px;padding-right:120px">
+                            Order Now !</h5>
+                        <h3 style="padding-top:20px;font-weight:bold;padding-right:120px">King's Restaurant !</h3>
+                    </div>
+
+                </div>
+
+
+                <!-- <iframe src="http://http://127.0.0.1:5500/Colloge/My_Designs/Final.html127.0.0.1:5500/Colloge/My_Designs/Final.html" frameborder="0"></iframe> -->
+            </div>
+        </section>
+        <section id="menu">
+            <h1
+                style="text-align:center;padding-top:30px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:100px;text-decoration:underline">
+                <b title="THis is the menu of the food">Menu</b>
+            </h1>
+            <h2
+                    style="padding-left:40%;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight:bold;font-size:50px">
+                    1.Biryanies</h2>
+                <tr>
+            <div class="d-flex flex-row">
+            <table style="width:60%;margin-left:20%;background-color:white">
+                <!-- </h2
+                    style="padding-left:40%;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight:bold;font-size:50px">
+                    1.Biryanies</h2> -->
+                <tr>
+                    <th>S.NO</th>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Cost</th>
+                </tr>
+
+                <tr>
+                    <td>1.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Chicken Biryani</span></a></td>
+                    <td>FUll <b>(Serves Two)</b></td>
+                    <td>250 /-</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Veg Biryani</span></a></td>
+                    <td>FUll <b>(Serves Two)</b></td>
+                    <td>210 /-</td>
+                </tr>
+
+                <tr>
+                    <td>3.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Egg Biryani</span></a></td>
+                    <td>FUll <b>(Serves Two)</b></td>
+                    <td>180 /-</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Pot Biryani</span></a></td>
+                    <td>FUll <b>(Serves Two)</b></td>
+                    <td>350 /-</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Hyderabadi Biryani</span></a></td>
+                    <td>FUll <b>(Serves Two)</b></td>
+                    <td>300 /-</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Frances Biryani</span></a></td>
+                    <td>FUll <b>(Serves Two)</b></td>
+                    <td>260 /-</td>
+                </tr>
+                <tr>
+                    <td>7.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Mugali Biryani</span></a></td>
+                    <td>FUll <b>(Serves Two)</b></td>
+                    <td>400 /-</td>
+                </tr>
+                <tr>
+                    <td>8.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Joint Biryani</span></a></td>
+                    <td>FUll <b>(Serves Two)</b></td>
+                    <td>350 /-</td>
+                </tr>
+                <tr>
+                    <td>9.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Fry Piece Biryani</span></a></td>
+                    <td>FUll <b>(Serves Two)</b></td>
+                    <td>300 /-</td>
+                </tr>
+                <tr>
+                    <td>10.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Chicken Biryani</span></a></td>
+                    <td>Half <b>(Serves one)</b></td>
+                    <td>150 /-</td>
+                </tr>
+                <tr>
+                    <td>11.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Veg Biryani</span></a></td>
+                    <td>Half <b>(Serves one)</b></td>
+                    <td>160 /-</td>
+                </tr>
+                <tr>
+                    <td>12.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Egg Biryani</span></a></td>
+                    <td>Half <b>(Serves one)</b></td>
+                    <td>120 /-</td>
+                </tr>
+                <tr>
+                    <td>13.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Pot Biryani</span></a></td>
+                    <td>Half <b>(Serves one)</b></td>
+                    <td>250 /-</td>
+                </tr>
+                <tr>
+                    <td>14.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Hyderabadi Biryani</span></a></td>
+                    <td>Half <b>(Serves one)</b></td>
+                    <td>200 /-</td>
+                </tr>
+                <tr>
+                    <td>15.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Frances Biryani</span></a></td>
+                    <td>Half <b>(Serves one)</b></td>
+                    <td>160 /-</td>
+                </tr>
+                <tr>
+                    <td>16.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Mugali Biryani</span></a></td>
+                    <td>Half <b>(Serves one)</b></td>
+                    <td>200 /-</td>
+                </tr>
+                <tr>
+                    <td>17.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Joint Biryani</span></a></td>
+                    <td>Half <b>(Serves one)</b></td>
+                    <td>350 /-</td>
+                </tr>
+                <tr>
+                    <td>18.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Fry Piece Biryani</span></a></td>
+                    <td>Half <b>(Serves one)</b></td>
+                    <td>150 /-</td>
+                </tr>
+                
+        
+        </table>
+       <div>
+        <aside>
+            <iframe src="https://codewithharry.com" frameborder="0" style="height:50vh;width:150%;margin-left:50px;" title="Harry with Coding"></iframe>
+        </aside>
+       </div>
+    </div>
+        <section>
+            <table style="width:60%;margin-left:20%;background-color:white">
+                <h2
+                    style="padding-left:40%;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight:bold;font-size:50px">
+                    2.Tiffines</h2>
+                <tr>
+                    <th>S.NO</th>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Cost</th>
+                </tr>
+
+                <tr>
+                    <td>1.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">IDLY (2)</span></a></td>
+                    <td>FUll <b>(Serves one)</b></td>
+                    <td>20 /-</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Plain Dosa (1)</span></a></td>
+                    <td>FUll <b>(Serves one)</b></td>
+                    <td>30 /-</td>
+                </tr>
+
+                <tr>
+                    <td>3.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Onion Dosa (1)</span></a></td>
+                    <td>FUll <b>(Serves one)</b></td>
+                    <td>60 /-</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Puri (2)</span></a></td>
+                    <td>FUll <b>(Serves one)</b></td>
+                    <td>70 /-</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Parota (3)</span></a></td>
+                    <td>FUll <b>(Serves one)</b></td>
+                    <td>100 /-</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Sambar IDLY (3)</span></a></td>
+                    <td>FUll <b>(Serves one)</b></td>
+                    <td>40 /-</td>
+                </tr>
+                <tr>
+                    <td>7.</td>
+                    <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                                id="hover">Egg DOSA (1)</span></a></td>
+                    <td>FUll <b>(Serves one)</b></td>
+                    <td>70 /-</td>
+                </tr>
+                <!-- <tr >
+                                        <td>8.</td>
+                                       <td > <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span  id="hover">Joint Biryani</span></a></td> 
+                                        <td>FUll <b>(Serves one)</b></td>
+                                        <td>350 /-</td>
+                                    </tr>
+                                    <tr >
+                                        <td>9.</td>
+                                       <td > <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span  id="hover">Fry Piece Biryani</span></a></td> 
+                                        <td>FUll <b>(Serves one)</b></td>
+                                        <td>300 /-</td>
+                                    </tr> -->
+
+
+        </section>
+        </table>
+        <table style="width:60%;margin-left:20%;background-color:white">
+            <h2
+                style="padding-left:40%;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight:bold;font-size:50px">
+                3.ICE CREAMS</h2>
+            <tr>
+                <th>S.NO</th>
+                <th>Name</th>
+                <!-- <th>Type</th> -->
+                <th>Cost</th>
+            </tr>
+
+            <tr>
+                <td>1.</td>
+                <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span id="hover">Cone
+                            IceCreme</span></a></td>
+                <!-- <td>FUll <b>(Serves one)</b></td> -->
+                <td>40 /-</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                            id="hover">Butter Scotch</span></a></td>
+                <!-- <td>FUll <b>(Serves one)</b></td> -->
+                <td>80 /-</td>
+            </tr>
+
+            <tr>
+                <td>3.</td>
+                <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span id="hover">Cup
+                            IceCreme</span></a></td>
+                <!-- <td>FUll <b>(Serves one)</b></td> -->
+                <td>30 /-</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                            id="hover">Fruite IceCreme</span></a></td>
+                <!-- <td>FUll <b>(Serves one)</b></td> -->
+                <td>70 /-</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                            id="hover">Grape IceCreme</span></a></td>
+                <!-- <td>FUll <b>(Serves one)</b></td> -->
+                <td>100 /-</td>
+            </tr>
+            <tr>
+                <td>6.</td>
+                <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                            id="hover">Family Pack (Ice-Creame)</span></a></td>
+                <!-- <td>FUll <b>(Serves one)</b></td> -->
+                <td>400 /-</td>
+            </tr>
+            <tr>
+                <td>7.</td>
+                <td> <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span
+                            id="hover">Double - Stick</span></a></td>
+                <!-- <td>FUll <b>(Serves one)</b></td> -->
+                <td>150 /-</td>
+            </tr>
+            <!-- <tr >
+                                                        <td>8.</td>
+                                                       <td > <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span  id="hover">Joint Biryani</span></a></td> 
+                                                        <td>FUll <b>(Serves one)</b></td>
+                                                        <td>350 /-</td>
+                                                    </tr>
+                                                    <tr >
+                                                        <td>9.</td>
+                                                       <td > <a href="https://codewithharry.com" style="color:black;text-decoration:none"> <span  id="hover">Fry Piece Biryani</span></a></td> 
+                                                        <td>FUll <b>(Serves one)</b></td>
+                                                        <td>300 /-</td>
+                                                    </tr> -->
+
+
+            </section>
+        </table>
+        <!-- <table style="width:100%">
+                    <caption>
+                        ice Creams
+                    </caption>
+                </table> -->
+        </section>
+
+    </main>
+    <footer>
+        <section style="margin-left:150px">
+            <!-- <br/> -->
+            <a href="mailto:sunkarisekhar36@gmail.com" style="padding-left:20%;padding-top:10px">Contact us</a>
+            <!-- <br><br/> -->
+
+            <a href="https://github.com/SomasekharSunkari" style="padding-left:10%;padding-top:10px">Github</a>
+            <!-- <br> -->
+            <!-- <br/> -->
+            <!-- <a href="mail"></a> -->
+            <a href="mailto:sunkarisekhar36@gmail.com" style="padding-left:10%;padding-top:10px">G-mail</a>
+            <!-- <br><br/> -->
+            <a href="http://127.0.0.1:5500/HTML_FOMS.html" style="padding-left:10%">Feedback</a>
+            <a href="" style="padding-left:10%"> For Franchise</a>
+            <!-- <br> -->
+            <br>
+            <br>
+            <br>
+            <div class="d-flex flex-row">
+                <address style="color:royalblue">
+                    <h4 style="color:white;text-decoration:underline">ADDRESS :</h4>
+                    Near Main Road, <br>
+                    NH - 26, <br>
+                    Ambativalsa, <br>
+                    Bondapalli, <br>
+                    Vizaynagaram, <br>
+                    AndhraPradesh. <br>
+                </address>
+                <h1 style="color:royalblue;padding-left:20%;padding-top:2%">JESUS IS SAVIER FOR ALL PEOPLE</h1>
+            </div>
+        </section>
+
+<iframe src="https://codewithharry.com" style="border:2px ridge black" width ="400" height="400" name="farame"  title="Code with ahhry page"></iframe>
+<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_iframe_target" target="farame">Go to the W3 schools</a>
+<!-- <blockquote cite ="https://codewithharry.com"> -->
+    <!-- <p>This is taken from teh ano hte website</p> -->
+    this is taken ffrom the another website
+<!-- </blockquote>
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+    For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+    </blockquote> -->
+    <img src="/Sai-phpto.jpeg"   style="max-width:100%;float:inherit" alt="Saia ptoto" usemap="#sekhar">
+    <map name="sekhar">
+        <area type="rect" coords="500,200,233,343,434,434" href="https://tse4.mm.bing.net/th?id=OIP.0_yGb353J_SPSma7_uTmzQHaEK&pid=Api">
+    </map>
+    <picture>
+        <source media="(min-width: 200px;)" srcset="https://tse4.mm.bing.net/th?id=OIP.0_yGb353J_SPSma7_uTmzQHaEK&pid=Api">
+        <source media = "(min-width:400px)" srcset="https://tse4.mm.bing.net/th?id=OIP.rvSWtRd_oPRTwDoTCmkP5gHaE8&pid=Api">
+    </picture>
+    <nav>
+        <details>
+            <option value="sekar">sekhar</option>
+        </details>
+        <ol type="a">
+            <a><li>Home</li></a>
+            <li>Sekhar</li>
+            <li>hai</li>
+        </ol>
+        <dl>
+            <dt>Term 1</dt>
+            <dd>-Definition 1</dd>
+            <dt>Term 2</dt>
+            <dd>-Definition 2</dd>
+            <dt>Term 3</dt>
+            <dd>-Definition 3</dd>
+          </dl>
+          
+    </nav>
+    </footer>
+
+</body>
+
+</html>
